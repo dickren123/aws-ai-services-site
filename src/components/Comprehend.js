@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import NavBar from '../utilities/navbar';
 import Footer from '../utilities/footer';
 var AWS = require('aws-sdk');
-AWS.config.region = 'us-east-1'; 
-AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'us-east-1:1956382a-b3f6-472c-9a8d-3a246853c917'});
+AWS.config.region = 'us-west-2'; 
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'us-west-2:59dafc4b-85a8-4cce-b355-957baebb888f'});
 
 class Comprehend extends Component {
     constructor(props){
