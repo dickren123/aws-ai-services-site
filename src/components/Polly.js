@@ -115,7 +115,7 @@ class Polly extends Component {
                         <div id="voiceChoiceDropdowns" class="input-group mb-3">
                           <select name="voice-choose" id="" title="" value={this.state.engine} onChange={this.onChangeEngine}>
                             <option selected>Choose an engine:</option>
-                            <option value="neural">Neural</option>
+                            {/* <option value="neural">Neural</option> */}
                             <option value="standard">Standard</option>
                           </select>
                           <select name="standard" id="" title="" value={this.state.voiceId} onChange={this.onChangeVoiceId} style={{display:'none'}}>
